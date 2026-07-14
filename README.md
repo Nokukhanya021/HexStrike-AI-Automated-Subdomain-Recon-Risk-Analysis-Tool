@@ -16,6 +16,11 @@ An AI-powered reconnaissance tool that enumerates subdomains and generates detai
 3. AI analyses attack surface and identifies risks
 4. Generates structured risk-rated security report
 
+## Evidence 
+1. MCP Server Setup — hexstrike-ai MCP server running and connected. ![MCP Setup](mcp_server_setup.png)
+2. Subfinder Scan — 8 subdomains passively enumerated in ~16 seconds. ![Subfinder Scan](subfinder_scan.png)
+3. AI-Generated Risk Report — Claude analyzes the attack surface and produces a structured, risk-rated report (2 HIGH, 2 MEDIUM findings identified). ![AI Risk Report](ai_risk_report.png)
+
 ##  Sample Findings
 | Asset | Risk | Issue |
 |---|---|---|
